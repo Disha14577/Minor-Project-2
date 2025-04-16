@@ -8,9 +8,10 @@ Racing Beast is a car racing game which is a fun and engaging genre of video gam
 - [Project Structure](#ProjectStructure)
 - [Features](#features)
 - [Getting started](#GettingStarted)
+- [Steps To Create Car Racing Game](#StepsToCreateCarRacingGame)
 - [Setup & Installation](#Setup&Installation)
-- [Notes](#Notes)
-- [Example interaction](#Exampleinteraction)
+- [Future Enhancement](#FutureEnhancement)
+- [Live Demo](#LiveDemo)
 - [License](#-license)
 ---
 ## About
@@ -35,8 +36,8 @@ car-racing-game/
 │   └── crash.wav             # Crash sound effect
 │
 ├── main.py                   # Main game loop and setup
-├── game.py                   # Core game logic and mechanics
-├── utils.py                  # Utility/helper functions
+├── LICENSE                   # Project MIT license
+├── highscore.txt             # show highscore
 └── README.md                 # Project documentation
 ```
 ### Key Features:
@@ -47,21 +48,26 @@ car-racing-game/
 - Score tracking for how long you survive
 - Organized codebase with separate modules for game logic and utilities
 
-## Why I consider building a weather app?
--	Creating a weather website can be a fulfilling project that serves a broad audience. With the right set of tools and a well-thought-out approach, your website can become a go-to resource for weather information.
--	High Demand and Utility which means Weather websites are visited regularly, fostering repeat traffic.
--	building a weather app project allows you to apply your web development skills to a real-world application.
--	it helps you to better understand DOM manipulation, Event handling, CSS styling, APIs, and more.
--	Weather websites can generate revenue through ads, affiliate marketing, premium subscription services (like ad-free access or advanced data), or partnerships with businesses in travel, outdoor gear, or agriculture.
--	A weather website can foster an engaged community by offering localized features. Users may share updates, storm reports, or photos, helping to build trust and expand your platform organically.
+## Why I consider building a car racing game?
+- I chose to build a car racing game because it's a classic and exciting genre that allows me to apply and showcase fundamental game development concepts such as movement, collision detection, event handling, scoring systems, and animation.
+- It's simple enough to be achievable within a limited timeframe, yet flexible enough to allow for creative additions like sound effects, increasing difficulty, and visual enhancements.
+- Working on this project helped me strengthen my Python and Pygame skills, improve my problem-solving ability, and gain hands-on experience in structuring a real-world game application.
+-	it is a easy to start with, but offers room for advanced features like speed scaling, collision detection, and power-ups.
+-	It is a perfect project to explore the capabilities of the Pygame library in a fun and visual way.
+-	It Allow creative expression through designing cars, road styles, enemy behavior, and sound effects.
 
 ## Steps To Create Car Racing Game
 ### To create racing beast using pygame, follow these step-by-step instructions:
-
-Create a folder. You can name this folder whatever you want, and inside this folder, create the mentioned files.
-Create an index.html file. The file name must be index and its extension .html
-Create a style.css file. The file name must be style and its extension .css
-Create a script.js file. The file name must be script and its extension .js
+- Set up environment – Install Python & Pygame, create project folder.
+- Initialize game – Set up window, FPS, and game loop.
+- Load assets – Import car, enemy, road images, and sounds.
+- Draw elements – Display player car and enemies on screen.
+- Add controls – Move car using arrow keys, limit movement.
+- Scroll background – Simulate road movement with a looping image.
+- Enemy logic – Randomly generate enemy cars and move them down.
+- Collision detection – Detect crashes and trigger game over.
+- Score system – Increase score over time and display it.
+- Test & enhance – Add sound, polish visuals, and fix bugs.
 
 ## Setup & Installation
 You can easily set up this weather app locally by following these steps:
@@ -76,39 +82,18 @@ Install Pygame with:
 pip install pygame
 ```
 
-## 💡Future Enhancement
+## Future Enhancement
 - Add power-ups and boosters
 - Include different car models to choose from
 - Implement a main menu and pause/resume feature
 - Save and display high scores
 - Add levels or difficulty progression
-  
-
-### Clone the repository (Optional)
-
-If you want to clone the repository and run it locally, follow these steps:
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/yourusername/weather-app.git
-    cd weather-app
-2. Open the `index.html` file in your browser.
-
-   You don't need any server or backend for this app since it's fully frontend-based.
    
 ## live Demo
 
 ![SS1](output1.png)
 ![SS1](output2.png)
 ![SS1](output3.png)   
-
-## Example interaction
-User : "Delhi"
-Weather app:"Delhi (2024-11-21)
-Temperature: 25.06°C
-Wind: 1.8 M/S
-Humidity: 33%"
 
 ## 📜 License
 This project is [MIT](./LICENSE) licensed. 
